@@ -273,6 +273,7 @@ names;
     values;
 
 
-
+// generator will be encountered only in redux-saga. Not important for now
+// https://github.com/redux-saga/redux-saga
 
 

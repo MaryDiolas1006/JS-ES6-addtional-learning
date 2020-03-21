@@ -2,13 +2,12 @@
 // the request by Ajax is getRequest
 function makeAjaxRequest (url, method = 'GET') {
    return method;
-    }
 }
 /* with default function parameters we don't have no longer
 to do and existing check on some argument. */
 
-makeAjaxRequest('google.com', undefined);
-makeAjaxRequest('google.com', 'POST');
+console.log(makeAjaxRequest('google.com'));
+console.log(makeAjaxRequest('google.com', 'POST42u3iohfjkwhfkjsdahjkf'));
 
 
 // create a user object
@@ -18,7 +17,7 @@ makeAjaxRequest('google.com', 'POST');
 
  // create a ramdom id
  function generateId(){
-      return Math.ramdom() * 9999999;
+      return Math.random() * 9999999;
  }
 
  // create a an adminUser

@@ -17,9 +17,9 @@ var hourlyWage = 80;
 
 
 
-const name = 'TingSheng';
-let title = 'Team Lead Software Engineer';
-let hourlyWage = 80;
+const name2 = 'TingSheng';
+let title2 = 'Team Lead Software Engineer';
+let hourlyWage2 = 80;
 
 
 // EXERCISES 
@@ -27,7 +27,7 @@ let hourlyWage = 80;
 /* Imagine that you are building an application to manage a user's
 Facebook profile. A profile might have a 'name', 'age', 'DOB'.*/
 
-const name = 'MarySheng';
+const name3 = 'MarySheng';
 let age = 27;
 const dateofbirth = new Date("1992/10/06");
 
@@ -51,17 +51,32 @@ Refactor the function to use the new keywords.*/
     }
 
       // Refactoring
-    const statuses = [ 
+    const statuses2 = [ 
         {code: 'OK', response: 'Request successful' },
         { code: 'FAILED', response: 'There was an error with your request' },
         { code: 'PENDING', response: 'Your reqeust is still pending' }
       ];
     
-        let message = '';
-        const currentCode = 'OK';
+        let message2 = '';
+        const currentCode2 = 'OK';
     
         for(let i = 0; i <statuses.length; i++){
             if(statuses[i].code === currentCode){
                 message = statuses[i].response;
             }
         }
+
+
+// because var `hoisting`
+// https://www.w3schools.com/js/js_hoisting.asp
+// a =  undefined
+console.log('a = ', a)
+var a = 123
+console.log('a = ', a)
+
+// // ReferenceError: b is not defined
+// console.log('b = ', b)
+// let b = 123
+
+// interview question
+// what is the differnce between let and var. What is hoisting

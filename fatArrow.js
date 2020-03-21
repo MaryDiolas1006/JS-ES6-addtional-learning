@@ -12,9 +12,9 @@ add(1, 2);
 //Refactor
 // single script expressions, return called implicit return 
 
-const add = (a, b) => a + b;
+const add2 = (a, b) => a + b;
 
-const newSum = add( 1, 2);
+const newSum = add2( 1, 2);
  
 console.log(newSum)
 
@@ -29,11 +29,11 @@ double(8);
 /* can't omit the parenthesis if more arguments. 
 example; */
 
-const double = (number1, number2) => {
+const double2 = (number1, number2) => {
     return 2 * number1 + 2 * number2;
 }
 
-double(8, 4);
+double2(8, 4);
 
 
 // double each number in the array using map helper
@@ -89,3 +89,23 @@ const profile = {
     }
 };
 
+
+
+
+// a()
+// function a() {
+//     console.log('aaa')
+// }
+
+// b()
+// const b = () => console.log('bbb')
+
+// c()
+// const c = function() {
+//     console.log('ccc')
+// }
+
+const madeByTingSheng = (product = 'meow') => () => `${product} is made by TingSheng`
+
+const answer = madeByTingSheng('milk shake')()
+console.log('answer = ', answer)

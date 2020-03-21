@@ -1,5 +1,5 @@
 //exampl 
-/*using template strings, do not use single
+/*using `template strings`, do not use single
  or double quotes, instead backtext (``) */
 
 function getMessage(){

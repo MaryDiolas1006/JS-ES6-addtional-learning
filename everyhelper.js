@@ -44,15 +44,15 @@ console.log(onlySomeComputersCanRunProgram);
 
    // for loop
     //CAN'T SOLVE
-   var names =[];
+   var answer =[];
 
-   for( var i = 0; i < names.length; i++){
-
-       if(name.length > 5){
-          names.push(names[i]) ;
-       }
+    for( var i = 0; i < names.length; i++){
+        //    if(name.length > 5){
+        if(names[i].length > 5) {
+            answer.push(names[i]) ;
+        }
     }
-    console.log('name =', name);
+    console.log('answer =', answer);
 
       // EVERY HELPER
        var name = names.every(function(name){
