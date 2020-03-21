@@ -9,7 +9,7 @@
 ► TEMPLATE LITERALS ES6 feature, allows you to work with strings in a novel way compared to ES5 and below.
   They are unique because they provide a lot of features that normal strings built with quotes do not, 
   in particular: they offer a great syntax to define multiline strings.
-► REST, the purpose is to write less code.
+► REST - the purpose is to write less code.
   REST operator is used to gather together variables.
   REST operator adding (...) to capture all the numbers.
 ► SPREAD allows an iterable such as an array expression or string to be expanded in places 
