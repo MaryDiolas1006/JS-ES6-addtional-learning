@@ -27,7 +27,7 @@
   in class-based object oriented languages. 
 ► DEFAULT FUNCTION -  It allows you to set default values for your function 
   parameters if no value is passed or if undefined is passed.
-► FAT ARROW functions are more concise syntax for
+► FAT ARROW functions - are more concise syntax for
   writing function expressions. 
 ►  A GENERATOR is a function that can be enter and exit multiple times.
   normally when we call a function, the function will run, 
