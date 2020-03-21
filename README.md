@@ -22,7 +22,7 @@
  where we expect the value that we are signing to it, to never change.
 ► LET - is use to declare variables when we expect the value 
   of a variable to change.
-► CLASSES in JavaScript ES6 are a special syntax for its prototypical 
+► CLASSES - in JavaScript ES6 are a special syntax for its prototypical 
   inheritance model that is a comparable inheritance
   in class-based object oriented languages. 
 ► DEFAULT FUNCTION -  It allows you to set default values for your function 
