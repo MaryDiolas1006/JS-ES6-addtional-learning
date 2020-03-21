@@ -19,7 +19,7 @@
 ►  DESTRUCTURING is a JavaScript expression that makes it possible
    to unpack values from arrays, or properties from objects, into distinct variables. 
 ► CONST - is a key word that is use to declare variables
- where we expect the value https://member.lazada.com.ph/user/profile#/that we are signing to it, to never change.
+ where we expect the value that we are signing to it, to never change.
 ► LET - is use to declare variables when we expect the value 
   of a variable to change.
 ► CLASSES in JavaScript ES6 are a special syntax for its prototypical 
