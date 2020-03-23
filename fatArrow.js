@@ -7,7 +7,8 @@ const add = function(a, b) {
     return a + b ;
 }
 
-add(1, 2);
+const sum = add(1, 2);
+console.log(sum)
 
 //Refactor
 // single script expressions, return called implicit return 
@@ -24,7 +25,8 @@ example; */
 
 const double = number => 2 * number;
 
-double(8);
+const result = double(8);
+console.log(result)
 
 /* can't omit the parenthesis if more arguments. 
 example; */
@@ -33,21 +35,26 @@ const double2 = (number1, number2) => {
     return 2 * number1 + 2 * number2;
 }
 
-double2(8, 4);
+const result2 = double2(8, 4);
+console.log(result2)
 
 
 // double each number in the array using map helper
 
 const numbers = [1, 2, 3];
 
-numbers.map(function(number){
+const answer2 = numbers.map(function(number){
     return 2 * number;
 });
 
-//refactor
-const number = [1, 2, 3];
+console.log(answer2)
 
-numbers.map(number => 2 * number);
+
+//refactor
+const number2 = [1, 2, 3];
+
+const answer3 = numbers.map(number2 => 2 * number2);
+console.log(answer3)
 
 
 // object that represent a team of people
@@ -64,7 +71,8 @@ const  team = {
     }
 };
 
-team.teamSummary();
+  team.teamSummary();
+console.log(team)
 
 
 //EXERCISES
@@ -74,6 +82,7 @@ const fibonacci = n => {
     if(n < 3) return 1;
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
 
 
 /* the code has an object that represents a users profile.
@@ -89,6 +98,8 @@ const profile = {
     }
 };
 
+const answer4 = 'MarySheng';
+console.log(answer4)
 
 
 

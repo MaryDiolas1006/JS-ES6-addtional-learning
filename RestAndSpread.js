@@ -8,7 +8,9 @@ function addNumbers(...number){
     }, 0);
 }
 
-addNumbers(1,2,3,4,5,6,7);
+ addNumbers(1,2,3,4,5,6,7);
+
+
 
 
 // spread is used to flatten or spread them out
@@ -20,7 +22,9 @@ const defaultColors = ['red', 'green'];
 const userFavoriteColors = [ 'orange', 'yellow'];
 
 //spread
-[...defaultColors, ...userFavoriteColors];
+ [...defaultColors, ...userFavoriteColors];
+
+
 
 
 //validate a shopping list/ mix rest and spread operator
@@ -32,7 +36,8 @@ function validateShoppingList(...items){
    return items;
 }
 
-validateShoppingList('oranges', 'bread', 'eggs');
+ validateShoppingList('oranges', 'bread', 'eggs');
+
 
 //math library. multiply two numbers together
 const MathLibrary = {
@@ -56,6 +61,7 @@ function product(a, b, c, d) {
      return acc * number
  }, 1);
 }
+
 
 
 // refactoring

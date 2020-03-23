@@ -34,7 +34,7 @@ var onlysomecomputerscanrunprogram = false;
      console.log('computer=', computer);
 
 
-     /* find the names of a length greater than 4. 
+     /* find the names of a length greater than 5. 
   Atleast five characters */
    var names = [
     "MarySheng",
@@ -42,8 +42,19 @@ var onlysomecomputerscanrunprogram = false;
     "Zest"
 ];
 
-//   //SOME HELPER
+//for loop
 
+var answer = [];
+
+for ( var i = 0; i < names.length; i++)
+     if (names[i].length > 5) {
+         answer.push(names[i]);
+     }
+
+     console.log('answer =', answer);
+
+//   //SOME HELPER
+      
    var name = names.some(function(name){
        return name.length > 5;
    });

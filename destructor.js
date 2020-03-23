@@ -11,8 +11,7 @@ var expense ={
 
 const {type, amount} = expense;
 
-type;
-amount;
+console.log({type, amount})
 
 //other example
 //es5
@@ -27,7 +26,9 @@ function fileSummary(file){
     return `the file $(file.name).$(file.extension)is of size $(file.size)`;
 }
 
-fileSummary(saveFiled);
+ fileSummary(saveFiled);
+
+
 
 //es6
 var saveFiled ={
@@ -40,7 +41,8 @@ function fileSummary({name, extension, size}){
     return `the file $(name).$(extension)is of size $(size)`;
 }
 
-fileSummary(saveFiled);
+ fileSummary(saveFiled);
+
 
 
 
@@ -59,8 +61,8 @@ const companies = [
 
 const [name, name2, name3] = companies;
 //or
-const [ name, ...rest];
-name;
+// const [ name, ...rest];
+console.log(companies)
 
 
 // MAKE AN ARRAY OF OBJECTS
@@ -72,7 +74,7 @@ const companies = [
 ];
 
 const [{location}] = companies;
-location;
+
 
 
 //another example

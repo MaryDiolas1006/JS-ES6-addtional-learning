@@ -11,7 +11,7 @@
          sum += numbers[i];
      }
 
-    //  console.log(sum)
+     console.log(sum)
 
      // REDUCE
 
@@ -20,7 +20,7 @@
             return sum + number;
      }, 10);
 
-    // sun123 is not defined
+    // sum123 is not defined
     // console.log('sum123 = ', sum123)
 
     console.log(result)
@@ -43,9 +43,9 @@
     //  }, []);
 
     const colorResult = primaryyColors.reduce(function(previous, primaryColor){
-                // return [...previous, primaryColor.color]
-                previous.push(primaryColor.color)  
-                return previous
+                return [...previous, primaryColor.color]
+            //or    // previous.push(primaryColor.color)  
+                // return previous
          }, []);
 
      console.log('colorResult = ', colorResult)
@@ -79,10 +79,9 @@
          return previous;
      }, 0);
    }
+const result2 =  balancedParens("((((");
 
- balancedParens("((((");
-
-//  console.log()???
+ console.log(result2)
 
 
       // EXERCISES
@@ -90,7 +89,7 @@
       /* Use the reduce helper to find the sum of all the distances
       traveled. Assign the result to the variable totalDistance */
       
-    //   can't solve 
+
       var trips = [
           { distance: 34},
           {distance: 12},
@@ -136,7 +135,7 @@ duplicate values from an array. use the reduce and find helper */
 //something wrong
 var numbers = [ 1,1,2,3,4,4,4,4,4,4,4,5];
 
-// Set only accept unique value. Create a Set to delte duplicated values
+// Set only accept unique value. Create a Set to delete duplicated values
 // const temp2132131231232131231231231 = new Set(numbers)
 // console.log('temp = ', temp2132131231232131231231231)
 // Transfer type Set to type Array 
@@ -152,8 +151,9 @@ console.log('b = ', b)
 // for object better use object literal
 const c = {a: 123}
 
+
 function unique(array) {
-    var uniqueArr = array.reduce(function(accumulate, numer){
+    var uniqueArr = array.reduce(function(accumulate, number){
         var numberExist = accumulate.find(function(acc){
             return acc === number;
         });
@@ -165,4 +165,4 @@ function unique(array) {
     return uniqueArr;
 }
 
-console.log(numbers)
+console.log('unique =', unique);

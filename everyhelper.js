@@ -43,7 +43,7 @@ console.log(onlySomeComputersCanRunProgram);
    ];
 
    // for loop
-    //CAN'T SOLVE
+    
    var answer =[];
 
     for( var i = 0; i < names.length; i++){
@@ -55,6 +55,7 @@ console.log(onlySomeComputersCanRunProgram);
     console.log('answer =', answer);
 
       // EVERY HELPER
+       
        var name = names.every(function(name){
            return name.length > 5;
        });
